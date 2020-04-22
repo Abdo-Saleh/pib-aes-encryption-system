@@ -1,7 +1,8 @@
 # AES ENCRYPTION SYSTEM
 ### STU FIIT
-######Supervisor: Ing. Ján Laštinec
-######Authored: abd alrahman saleh
+####Supervisor: Ing. Ján Laštinec
+
+####Authored: Abd Alrahman Saleh
 # Client
 
 This project was generated with JAVA
