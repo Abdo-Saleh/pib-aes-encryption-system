@@ -161,7 +161,7 @@ public class client_frame extends javax.swing.JFrame {
         });
         getContentPane().add(tf_address, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 10, 89, 30));
 
-        lb_username.setText("Username :");
+        lb_username.setText("Email:");
         getContentPane().add(lb_username, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 80, -1));
 
         tf_username.addActionListener(new java.awt.event.ActionListener() {
@@ -220,20 +220,20 @@ public class client_frame extends javax.swing.JFrame {
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/stufiit.png"))); // NOI18N
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 60, 390, 310));
-        getContentPane().add(tf_email, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 200, 30));
+        getContentPane().add(tf_email, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 50, 200, 30));
 
         jLabel1.setText("Salt:");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 20, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 60, -1, -1));
 
         jLabel2.setText("Secret-Key:");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 60, -1, 20));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 20, -1, 20));
 
         lb_port.setText("Port :");
         getContentPane().add(lb_port, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 20, 56, -1));
 
         lb_password.setText("Password : ");
         getContentPane().add(lb_password, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, -1, -1));
-        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 50, 200, 30));
+        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 200, 30));
 
         tf_port.setText("2222");
         tf_port.addActionListener(new java.awt.event.ActionListener() {
