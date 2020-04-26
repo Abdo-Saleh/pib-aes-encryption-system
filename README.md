@@ -30,7 +30,7 @@ Run `Client` to build the client.
 
 Log-in using your email
 
-Before you start sending messages, make sure you have set your secretkey and salt, which you rescive after logging-in.
+Before you start sending messages, make sure you have set your secretkey and salt, which you receive after logging-in.
 
 Others won't understand your messages if they don't use your secretkey and salt.
 
