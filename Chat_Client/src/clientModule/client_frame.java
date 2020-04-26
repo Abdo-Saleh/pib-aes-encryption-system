@@ -139,10 +139,8 @@ public class client_frame extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         lb_port = new javax.swing.JLabel();
-        lb_password = new javax.swing.JLabel();
         jTextField3 = new javax.swing.JTextField();
         tf_port = new javax.swing.JTextField();
-        tf_password = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Client");
@@ -169,7 +167,7 @@ public class client_frame extends javax.swing.JFrame {
                 tf_usernameActionPerformed(evt);
             }
         });
-        getContentPane().add(tf_username, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 50, 89, 30));
+        getContentPane().add(tf_username, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 50, 250, 30));
 
         b_connect.setText("Log In");
         b_connect.addActionListener(new java.awt.event.ActionListener() {
@@ -177,7 +175,7 @@ public class client_frame extends javax.swing.JFrame {
                 b_connectActionPerformed(evt);
             }
         });
-        getContentPane().add(b_connect, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 10, 70, 30));
+        getContentPane().add(b_connect, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 10, 90, 30));
 
         b_disconnect.setText("Log out");
         b_disconnect.addActionListener(new java.awt.event.ActionListener() {
@@ -185,7 +183,7 @@ public class client_frame extends javax.swing.JFrame {
                 b_disconnectActionPerformed(evt);
             }
         });
-        getContentPane().add(b_disconnect, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 50, 70, 30));
+        getContentPane().add(b_disconnect, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 50, 90, 30));
 
         ta_chat.setColumns(20);
         ta_chat.setRows(5);
@@ -230,9 +228,6 @@ public class client_frame extends javax.swing.JFrame {
 
         lb_port.setText("Port :");
         getContentPane().add(lb_port, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 20, 56, -1));
-
-        lb_password.setText("Password : ");
-        getContentPane().add(lb_password, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, -1, -1));
         getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 200, 30));
 
         tf_port.setText("2222");
@@ -242,7 +237,6 @@ public class client_frame extends javax.swing.JFrame {
             }
         });
         getContentPane().add(tf_port, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 10, 77, 30));
-        getContentPane().add(tf_password, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, 75, 30));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -331,14 +325,12 @@ public class client_frame extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JLabel lb_address;
-    private javax.swing.JLabel lb_password;
     private javax.swing.JLabel lb_port;
     private javax.swing.JLabel lb_username;
     private javax.swing.JTextArea ta_chat;
     private javax.swing.JTextField tf_address;
     private javax.swing.JTextField tf_chat;
     private javax.swing.JTextField tf_email;
-    private javax.swing.JTextField tf_password;
     private javax.swing.JTextField tf_port;
     private javax.swing.JTextField tf_username;
     // End of variables declaration//GEN-END:variables
